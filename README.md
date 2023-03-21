@@ -3,7 +3,7 @@
 ## What is this project about? 
 Este proyecto consiste en un programa que se encarga de buscar los mejores precios de tickets de avion en una serie de trayectos almacenados en una Google Sheet.
 
-![screenshot](flight-sheet.png)
+![screenshot](flight-data-sheet.png)
 
 ## Built with: 
 
