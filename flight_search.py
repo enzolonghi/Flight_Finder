@@ -1,12 +1,12 @@
 from amadeus import Client
 # This class is responsible for talk to the flights data API
 class FlightSearch:
-    def __init__(self):
+    def __init__(self, IATA):
         self.arrival_airport_iata = None
         self.stops_number = None
         self.amadeus = None
         self.response = None
-        self.MY_CITY_IATA = "EZE"
+        self.MY_CITY_IATA = IATA
 
     def flight_price(self, destination_iata, date):
         self.amadeus = Client(

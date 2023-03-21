@@ -76,9 +76,11 @@ delete_cities(cities_list=cities_to_remove)
 #Obtain the updated data from the Google sheet
 google_sheet_data = data_manager.obtain_complete_data()
 
-#Search flight price for the next 60 days
 
-flight_searcher = FlightSearch()
+#Create the FlightSearch class and pass the IATA code of the departure airport
+flight_searcher = FlightSearch("EZE")
+
+#Search flight price for the next 60 days
 cities_to_flight = [city["iataCode"] for city in google_sheet_data["prices"]]
 cities_to_change = {}
 def find_cheapest_flight(cities_to_search):
