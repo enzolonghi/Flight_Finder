@@ -1,7 +1,7 @@
 # Flight_Finder
 
 ## What is this project about? 
-Este proyecto consiste en un programa que se encarga de buscar los mejores precios de tickets de avion en una serie de trayectos almacenados en una Google Sheet.
+This project consists of a program that searches for the best airline ticket prices in a series of routes stored in a Google Sheet.
 
 ![screenshot](flight-data-sheet.png)
 
