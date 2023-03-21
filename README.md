@@ -3,17 +3,13 @@
 ## What is this project about? 
 Este proyecto consiste en un programa que se encarga de buscar los mejores precios de tickets de avion en una serie de trayectos almacenados en una Google Sheet.
 
-![screenshot](static/img/home-img.png)
-![screenshot](static/img/post-img.png)
+![screenshot](flight-sheet.png)
 
 ## Built with: 
 
 - [Python](https://www.python.org/)
-- [Flask](https://flask.palletsprojects.com/en/2.2.x/)
-- HTML
-- CSS
-
-
+- [Sheety](https://sheety.co/)
+- [Amadeus](https://developers.amadeus.com/)
 
 ## Author 
 
